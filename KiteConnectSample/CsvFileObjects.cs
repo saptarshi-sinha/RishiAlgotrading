@@ -48,14 +48,19 @@ namespace KiteConnectSample
 
         public string Strike1 { get; set; }
         public string Strike2 { get; set; }
+        public string Strike3 { get; set; }
         public decimal SqoffDelta{ get; set; }
         public decimal SqoffPrice { get; set; }
+        public decimal StopPrice { get; set; }
         public decimal PurchasePrice { get; set; }
         public decimal SqoffPercent { get; set; }
         public string Broker { get; set; }
         public string TransType { get; set; }
         public int NoofLots { get; set; }
+        public string ExpiryDate { get; set; }
         //public int lotSize { get; set; }
+        public string Status { get; set; }
+        public string StrategyType { get; set; }        
         public Kite kite { get; set; }
 
     }
